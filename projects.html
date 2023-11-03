@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>jonas Klotz</title>
+    <meta name="google-site-verification" content="qlus96Gbv3kTyfBKCVbDxsaYBTcsIiS3wKDjlNzCAbg"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+    <link type="image/png" sizes="32x32" rel="icon" href="images/icon.svg">
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt style5">
+        <a href="index.html" class="logo"><strong>jonas</strong> <span>Klotz</span></a>
+        <nav>
+            <a href="#menu">Menu</a>
+        </nav>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li>
+                <a href="https://github.com/jonasklotz/jonasklotz.github.io/blob/master/_content/klotz_cv.pdf">Resume</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!-- Banner -->
+    <!-- Note: The "styleN" class below should match that of the header element. -->
+    <section id="banner" class="style5">
+        <div class="inner alt">
+                <span class="image">
+                    <img src="images/banner2.jpg" alt=""/>
+                </span>
+            <header class="major">
+                <h1>Projects</h1>
+            </header>
+            <div class="content alt">
+                <p>Ongoing projects, academic and otherwise</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <section id="one" class="spotlights">
+
+            <!-- land sealing - DSSGx Project -->
+            <section>
+                <a href="#" class="image">
+                    <img src="images/projects/floodrisk.png" alt="" data-position="center center"/>
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="minor">
+                            <h3><a href="#">Land sealing dataset and analysis for
+                                better understanding of climate change</a></h3>
+                        </header>
+                        <p>
+                            As part of the Data Science for Social Good project, we set out to develop a dataset for
+                            monitoring land use in Germany. Our approach involved scraping "Bauleitpläne" data from
+                            German geoportals, where we applied Optical Character Recognition (OCR) and image extraction
+                            techniques to digitize these documents. Leveraging Natural Language Processing (NLP), we
+                            then extracted and organized pertinent information from these digital resources. This
+                            collaborative effort has enabled us to contribute to a comprehensive solution for effective
+                            land use monitoring. </p>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- XAI Survey For SSRL -->
+            <section>
+                <a href="" class="image">
+                    <img src="images/projects/xai_square.png" alt="" data-position="center center"/>
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="minor">
+                            <h3><a href="https://github.com/jonasklotz/refugee-attacks">Evaluating eXplainable AI
+                                methods for self-supervised representation learning</a></h3>
+                            <h5>Finished project</h5>
+                        </header>
+                        <p>
+                            This survey offers a comprehensive investigation of Explainable Artificial Intelligence
+                            (XAI) techniques applied to self-supervised representation learning (SSRL). Several existing
+                            methods, namely VDSN, GradCAM for Embeddings, RELAX, Label-Free Feature Importance, and
+                            COCOA, are thoroughly evaluated using quantitative and qualitative analyses. Multiple
+                            pretrained models, including ResNet, VAE, SWaV, and SimCLR, are assessed on a synthetic
+                            dataset, and an additional evaluation is conducted by training SimCLR on this dataset. The
+                            findings highlight the strengths and limitations of these methods and discuss the associated
+                            challenges. Specifically, RELAX and COCOA demonstrate promising performance.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Noise Robust MLC -->
+            <section>
+                <a href="#" class="image">
+                    <img src="images/projects/sats_square.png" alt="" data-position="center center"/>
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="minor">
+                            <h3>Noise Robust Multi-label Classifier for Satellite Images</h3>
+                            <h5>Finished project</h5>
+                        </header>
+                        <p>
+                            The rapid increase in Earth's satellite count has led to a surge in remote sensing data,
+                            making accurate labeling a significant challenge. We investigate the suitability of
+                            state-of-the-art computer vision methods for handling label noise in remote sensing data.
+
+                            Our research reveals that label message passing architectures outperform generic models,
+                            especially in dealing with subtractive and mixed label noise. The ASL loss function proves
+                            effective for high levels of label noise, and Weighted BCE outperforms BCE in handling
+                            subtractive and mixed noise. These findings provide insights into noise-robust methods for
+                            remote sensing and point to opportunities for refining techniques and applying them to other
+                            datasets.
+
+                            This research contributes to improving the accuracy of multi-label image classification in
+                            remote sensing and has implications for various applications in noisy environments.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chess Vision-->
+            <section>
+                <a href="#" class="image">
+                    <img src="images/projects/chessvision_slower.gif" alt="" data-position="top center"/>
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="minor">
+                            <h3>
+                                <a href="">Chess Vision: Extract Chess Positions from Images</a>
+                            </h3>
+                            <h5>Finished project</h5>
+                        </header>
+                        <p>
+                            This project presents an algorithm designed for chessboard detection and piece recognition
+                            in images, with potential use in a mobile application to aid players in analyzing their
+                            games and enhancing their chess skills. The chessboard detection relies on a line-based
+                            approach, identifying the grid and calculating the corners based on clustered line
+                            intersections.
+
+                            For piece recognition, four convolutional neural network (CNN) architectures (Xception,
+                            ResnetV2, MobileNet, and NASNetMobile) were trained on a dataset containing 127,000 chess
+                            pieces. The board detection achieved an accuracy of approximately 41% within 0.85 seconds,
+                            compared to around 63% in 1.88 seconds when compared to a state-of-the-art algorithm. While
+                            the accuracy was about 22% lower, the execution time was reduced by a factor of
+                            approximately 2.2 times.
+
+                            The study examined different parameters, such as the number of output classes and the
+                            utilization of domain knowledge, to understand their impact on accuracy and F1 score for
+                            piece recognition. Among the tested configurations, the Xception network, with 13 output
+                            classes and domain knowledge, achieved the highest accuracy of around 57% for piece
+                            recognition.
+                        </p>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="inner">
+                <section>
+                    <div>
+                        <h2>
+                            Contact Me
+                        </h2>
+                        <h3>I'll keep it simple.</h3>
+                        <p>
+                            Here is my email
+                        </p>
+                        <div class="contact-method">
+                            <span class="icon solid alt fa-envelope" href="mailto:j.klotz@tu-berlin.de"></span>
+                            <a href="mailto:j.klotz@tu-berlin.de">j.klotz@tu-berlin.de</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="split">
+                    <section>
+                        <div>
+                            <h2>
+                                Social Media
+                            </h2>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="icon brands solid alt fa-github"></span>
+                            <h3>Github</h3>
+                            <span><a href="https://github.com/jonasklotz">github.com/JonasKlotz</a></span>
+                        </div>
+
+
+                        <div class="contact-method">
+                            <span class="icon brands solid alt fa-linkedin-in"></span>
+                            <h3>LinkedIn</h3>
+                            <span><a
+                                    href="https://www.linkedin.com/in/jonas-klotz/">linkedin.com/in/Jonas-Klotz</a></span>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jonas Klotz</li>
+                    <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
